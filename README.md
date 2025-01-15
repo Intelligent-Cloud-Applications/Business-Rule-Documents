@@ -1,4 +1,3 @@
-Here is a customized **README** file specifically for the **Cafe Management Code Generator** branch:
 
 ---
 
