@@ -1,107 +1,96 @@
-Here's the updated **README** with the correct GitHub link:  
 
 ---
 
-# Business Rule Documents for Code Generators  
-Welcome to the **Business Rule Documents** repository! This repository serves as a centralized hub for managing and storing business rule frameworks for different **code generators**. These documents act as a guide for creating professional, user-centric websites across various industries, ensuring consistent quality and streamlined development processes.
+# Dance Studio Code Generator  
+
+Welcome to the **Dance Studio Code Generator** repository! This branch is dedicated to defining business rules for developing engaging and feature-rich websites tailored to dance studios. These rules ensure a professional, user-friendly experience for instructors, members, and administrators, while streamlining studio operations.  
 
 ---
 
 ## 🌟 Features  
 
-### 🗂️ Repository Organization  
-The repository is designed to support multiple code generators:  
-- **Dance Studio Websites**  
-- **Dental Practices Websites**  
-- **Cafe Management Websites**  
-- **[Add More Domains as Needed]**  
-
-Each domain has a dedicated folder containing its **Business Rule Documents** and associated resources.
-
-### 📋 Business Rule Content  
-1. **Role Descriptions**: Defines roles such as members, instructors, admins, and their permissions.  
-2. **Features**: Outlines functionalities like login, payment systems, scheduling, messaging, etc.  
-3. **Scenarios & Constraints**: Specifies edge cases, mandatory fields, and dependencies.  
+### 🗂️ Repository Focus  
+This branch focuses exclusively on dance studio management and includes:  
+- **Role Descriptions**: Defines roles such as admin, instructor, and member.  
+- **Core Functionalities**: Covers features like class scheduling, membership management, and payment processing.  
+- **Scenario Analysis**: Details edge cases, constraints, and dependencies specific to dance studios.  
 
 ---
 
 ## 🚀 Getting Started  
 
 ### 📥 Clone the Repository  
+Use the SSH URL to clone this branch:  
 ```bash
-git clone https://github.com/soumya-work/Business-Rule-Documents.git
+git clone --branch dance-studio git@github.com:Intelligent-Cloud-Applications/Business-Rule-Documents.git
 ```
 
 ### 🗂️ Navigate the Structure  
 ```plaintext
-business-rule-documents/  
-├── dance-studio/  
-│   ├── business-rules-doc
-├── dental-practices/  
-│   ├── business-rules-doc
-└── cafe-management/  
-     ├── business-rules-doc 
-```
+dance-studio/  
+├── business-rules-doc  
+│   ├── roles.md  
+│   ├── features.md  
+│   └── scenarios.md  
+├── resources/  
+│   └── diagrams  
+└── README.md  
+```  
 
 ---
 
-## 🏗️ Folder Structure  
+## 📋 Business Rule Highlights  
 
-### 1. Dance Studio Websites  
-Contains all the business rules for creating a dynamic **Dance Studio** platform:  
+1. **Roles & Permissions**  
+   - **Admin**: Manage instructors, view reports, and configure studio settings.  
+   - **Instructor**: Manage class schedules, track attendance, and engage with members.  
+   - **Member**: View schedules, book classes, and make payments.  
 
-### 2. Dental Practices Websites  
-Business rules for designing efficient and professional **Dentist Website** platforms:  
+2. **Key Features**  
+   - **Class Scheduling**: Create and manage class timetables, including online and offline options.  
+   - **Membership Management**: Track memberships, renewals, and attendance records.  
+   - **Payment Integration**: Offer multiple payment options for classes and events.  
 
-### 3. Cafe Management Websites  
-Defines rules for creating user-centric **Cafe Management** websites:   
-
-### 4. [Add More Domains]  
-Additional domains can follow a similar structure for consistent organization.  
+3. **Scenarios & Constraints**  
+   - Avoid double-booking instructors for overlapping classes.  
+   - Enforce mandatory attendance tracking for members.  
+   - Send automated reminders for upcoming classes or events.  
 
 ---
 
 ## ✍️ How to Contribute  
 
-We welcome contributions to enhance and expand this repository. Here’s how to contribute:  
+Your contributions can help improve this branch. Here’s how you can get involved:  
 
 1. **Fork the Repository**  
-2. **Create a Branch**  
-3. **Make Your Changes**  
-   - Add or update files.  
-   - Follow consistent formatting and naming conventions.  
+2. **Switch to `dance-studio` Branch**  
+3. **Make Changes**  
+   - Add or enhance business rules.  
+   - Include diagrams or visual aids for clarity.  
 4. **Commit Changes**  
    ```bash
    git add .  
-   git commit -m "Created Business Rule Document for code generator"  
+   git commit -m "Updated business rules for Dance Studio Websites"  
    ```  
-5. **Push to Your Fork**  
-     
----
-
-## 🧑‍💻 Guidelines  
-
-- **Consistency**: Maintain uniform formatting and terminologies across documents.  
-- **Clarity**: Ensure rules are concise and easy to understand.  
-- **Versioning**: Use version control to track updates for each domain.  
+5. **Push to Your Fork and Create a Pull Request**  
 
 ---
 
-## 📚 Resources  
+## 🧑‍💻 Contribution Guidelines  
 
-- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)  
-- [Best Practices for Documentation](https://www.writethedocs.org/guide/)  
+- **Specificity**: Focus on features relevant to dance studios.  
+- **Clarity**: Write concise and understandable rules.  
+- **Structure**: Ensure the organization aligns with the repository structure.  
 
 ---
 
 ## 📧 Contact  
 
-Have questions or suggestions? Feel free to reach out to:  
+For questions or suggestions, contact:  
 - **Repository Maintainer**: Soumya Ranjan Sahu  
 - **GitHub Profile**: [soumya-work](https://github.com/soumya-work)  
 
-Let’s collaborate to make this repository a valuable resource for all developers! 🚀  
+Let’s create outstanding websites for dance studios together! 💃🚀  
 
 ---  
 
-Let me know if there are further refinements you need!
