@@ -1,107 +1,96 @@
-Here's the updated **README** with the correct GitHub link:  
 
 ---
 
-# Business Rule Documents for Code Generators  
-Welcome to the **Business Rule Documents** repository! This repository serves as a centralized hub for managing and storing business rule frameworks for different **code generators**. These documents act as a guide for creating professional, user-centric websites across various industries, ensuring consistent quality and streamlined development processes.
+# Course-Based Dance School Code Generator  
+
+Welcome to the **Course-Based Dance School Code Generator** repository! This branch focuses on defining business rules for creating dynamic, course-centric websites tailored for dance schools. These rules help streamline operations, enhance the user experience, and promote effective management of courses, instructors, and students.  
 
 ---
 
 ## 🌟 Features  
 
-### 🗂️ Repository Organization  
-The repository is designed to support multiple code generators:  
-- **Dance Studio Websites**  
-- **Dental Practices Websites**  
-- **Cafe Management Websites**  
-- **[Add More Domains as Needed]**  
-
-Each domain has a dedicated folder containing its **Business Rule Documents** and associated resources.
-
-### 📋 Business Rule Content  
-1. **Role Descriptions**: Defines roles such as members, instructors, admins, and their permissions.  
-2. **Features**: Outlines functionalities like login, payment systems, scheduling, messaging, etc.  
-3. **Scenarios & Constraints**: Specifies edge cases, mandatory fields, and dependencies.  
+### 🗂️ Repository Focus  
+This branch is dedicated to course-based dance school management and includes:  
+- **Role Descriptions**: Defines roles such as admin, instructor, student, and guest.  
+- **Core Functionalities**: Covers features like course registration, progress tracking, and payment systems.  
+- **Scenario Analysis**: Handles specific edge cases, dependencies, and constraints related to dance courses.  
 
 ---
 
 ## 🚀 Getting Started  
 
 ### 📥 Clone the Repository  
+Use the SSH URL to clone this branch:  
 ```bash
-git clone https://github.com/soumya-work/Business-Rule-Documents.git
+git clone --branch course-based-dance-school git@github.com:Intelligent-Cloud-Applications/Business-Rule-Documents.git
 ```
 
 ### 🗂️ Navigate the Structure  
 ```plaintext
-business-rule-documents/  
-├── dance-studio/  
-│   ├── business-rules-doc
-├── dental-practices/  
-│   ├── business-rules-doc
-└── cafe-management/  
-     ├── business-rules-doc 
-```
+course-based-dance-school/  
+├── business-rules-doc  
+│   ├── roles.md  
+│   ├── features.md  
+│   └── scenarios.md  
+├── resources/  
+│   └── diagrams  
+└── README.md  
+```  
 
 ---
 
-## 🏗️ Folder Structure  
+## 📋 Business Rule Highlights  
 
-### 1. Dance Studio Websites  
-Contains all the business rules for creating a dynamic **Dance Studio** platform:  
+1. **Roles & Permissions**  
+   - **Admin**: Manage courses, instructors, and students, and view performance reports.  
+   - **Instructor**: Create and manage course content, track student progress, and provide feedback.  
+   - **Student**: Enroll in courses, track progress, and access course materials.  
+   - **Guest**: Browse available courses and register for trial classes or events.  
 
-### 2. Dental Practices Websites  
-Business rules for designing efficient and professional **Dentist Website** platforms:  
+2. **Key Features**  
+   - **Course Management**: Create, update, and categorize dance courses by style, level, and duration.  
+   - **Progress Tracking**: Monitor student attendance, performance, and completion rates.  
+   - **Payment Integration**: Support subscription-based models, installment payments, and one-time fees.  
 
-### 3. Cafe Management Websites  
-Defines rules for creating user-centric **Cafe Management** websites:   
-
-### 4. [Add More Domains]  
-Additional domains can follow a similar structure for consistent organization.  
+3. **Scenarios & Constraints**  
+   - Prevent over-enrollment in limited-capacity courses.  
+   - Send automated reminders for class schedules and payment due dates.  
+   - Provide personalized dashboards for students to track their enrolled courses.  
 
 ---
 
 ## ✍️ How to Contribute  
 
-We welcome contributions to enhance and expand this repository. Here’s how to contribute:  
+We welcome contributions to improve and expand this branch. Here’s how you can get started:  
 
 1. **Fork the Repository**  
-2. **Create a Branch**  
-3. **Make Your Changes**  
-   - Add or update files.  
-   - Follow consistent formatting and naming conventions.  
+2. **Switch to `course-based-dance-school` Branch**  
+3. **Make Changes**  
+   - Add or update business rules and features.  
+   - Include diagrams or workflow charts for better clarity.  
 4. **Commit Changes**  
    ```bash
    git add .  
-   git commit -m "Created Business Rule Document for code generator"  
+   git commit -m "Updated business rules for Course-Based Dance School Websites"  
    ```  
-5. **Push to Your Fork**  
-     
----
-
-## 🧑‍💻 Guidelines  
-
-- **Consistency**: Maintain uniform formatting and terminologies across documents.  
-- **Clarity**: Ensure rules are concise and easy to understand.  
-- **Versioning**: Use version control to track updates for each domain.  
+5. **Push to Your Fork and Create a Pull Request**  
 
 ---
 
-## 📚 Resources  
+## 🧑‍💻 Contribution Guidelines  
 
-- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)  
-- [Best Practices for Documentation](https://www.writethedocs.org/guide/)  
+- **Focus**: Ensure all contributions are relevant to course-based dance school functionality.  
+- **Clarity**: Use simple language and maintain a professional tone.  
+- **Consistency**: Follow the repository’s file structure and formatting standards.  
 
 ---
 
 ## 📧 Contact  
 
-Have questions or suggestions? Feel free to reach out to:  
+For questions or suggestions, contact:  
 - **Repository Maintainer**: Soumya Ranjan Sahu  
 - **GitHub Profile**: [soumya-work](https://github.com/soumya-work)  
 
-Let’s collaborate to make this repository a valuable resource for all developers! 🚀  
+Let’s collaborate to create exceptional websites for course-based dance schools! 🩰🚀  
 
 ---  
-
-Let me know if there are further refinements you need!
