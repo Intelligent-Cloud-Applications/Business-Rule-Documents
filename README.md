@@ -1,4 +1,3 @@
-Here’s a tailored **README** file for the **Dentist Website Code Generator** branch:  
 
 ---
 
