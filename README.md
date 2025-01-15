@@ -1,107 +1,95 @@
-Here's the updated **README** with the correct GitHub link:  
+Here is a customized **README** file specifically for the **Cafe Management Code Generator** branch:
 
 ---
 
-# Business Rule Documents for Code Generators  
-Welcome to the **Business Rule Documents** repository! This repository serves as a centralized hub for managing and storing business rule frameworks for different **code generators**. These documents act as a guide for creating professional, user-centric websites across various industries, ensuring consistent quality and streamlined development processes.
+# Cafe Management Code Generator  
+
+Welcome to the **Cafe Management Code Generator** repository! This branch is dedicated to defining and managing business rules for developing professional, user-centric websites for cafe management. These business rules aim to standardize features, ensure consistent quality, and streamline development processes tailored to the needs of cafes.  
 
 ---
 
 ## 🌟 Features  
 
-### 🗂️ Repository Organization  
-The repository is designed to support multiple code generators:  
-- **Dance Studio Websites**  
-- **Dental Practices Websites**  
-- **Cafe Management Websites**  
-- **[Add More Domains as Needed]**  
-
-Each domain has a dedicated folder containing its **Business Rule Documents** and associated resources.
-
-### 📋 Business Rule Content  
-1. **Role Descriptions**: Defines roles such as members, instructors, admins, and their permissions.  
-2. **Features**: Outlines functionalities like login, payment systems, scheduling, messaging, etc.  
-3. **Scenarios & Constraints**: Specifies edge cases, mandatory fields, and dependencies.  
+### 🗂️ Repository Focus  
+This branch is exclusively focused on cafe management and contains:  
+- **Role Descriptions**: Defining roles such as admin, staff, and customers.  
+- **Functional Features**: Covering functionalities like menu management, order tracking, and payment systems.  
+- **Scenario Analysis**: Handling edge cases and specific constraints for cafe operations.  
 
 ---
 
 ## 🚀 Getting Started  
 
 ### 📥 Clone the Repository  
+Use the SSH URL to clone this branch:  
 ```bash
-git clone https://github.com/soumya-work/Business-Rule-Documents.git
+git clone --branch cafe-management git@github.com:Intelligent-Cloud-Applications/Business-Rule-Documents.git
 ```
 
 ### 🗂️ Navigate the Structure  
 ```plaintext
-business-rule-documents/  
-├── dance-studio/  
-│   ├── business-rules-doc
-├── dental-practices/  
-│   ├── business-rules-doc
-└── cafe-management/  
-     ├── business-rules-doc 
-```
+cafe-management/  
+├── business-rules-doc  
+│   ├── roles.md  
+│   ├── features.md  
+│   └── scenarios.md  
+├── resources/  
+│   └── diagrams  
+└── README.md  
+```  
 
 ---
 
-## 🏗️ Folder Structure  
+## 📋 Business Rule Highlights  
 
-### 1. Dance Studio Websites  
-Contains all the business rules for creating a dynamic **Dance Studio** platform:  
+1. **Roles & Permissions**  
+   - **Admin**: Manage staff, view reports, and configure settings.  
+   - **Staff**: Handle orders, manage inventory, and update menus.  
+   - **Customers**: Browse menu, place orders, and provide feedback.  
 
-### 2. Dental Practices Websites  
-Business rules for designing efficient and professional **Dentist Website** platforms:  
+2. **Key Features**  
+   - **Menu Management**: Add, update, and categorize menu items.  
+   - **Order Processing**: Real-time order tracking and fulfillment.  
+   - **Payment Integration**: Support for multiple payment gateways.  
 
-### 3. Cafe Management Websites  
-Defines rules for creating user-centric **Cafe Management** websites:   
-
-### 4. [Add More Domains]  
-Additional domains can follow a similar structure for consistent organization.  
+3. **Scenarios & Constraints**  
+   - Handle large group orders efficiently.  
+   - Enforce mandatory fields for customer feedback submission.  
 
 ---
 
 ## ✍️ How to Contribute  
 
-We welcome contributions to enhance and expand this repository. Here’s how to contribute:  
+We welcome contributions to make this branch more robust. Here's how:  
 
 1. **Fork the Repository**  
-2. **Create a Branch**  
-3. **Make Your Changes**  
-   - Add or update files.  
-   - Follow consistent formatting and naming conventions.  
+2. **Switch to `cafe-management` Branch**  
+3. **Make Changes**  
+   - Add or improve business rules.  
+   - Include visual resources like diagrams where applicable.  
 4. **Commit Changes**  
    ```bash
    git add .  
-   git commit -m "Created Business Rule Document for code generator"  
+   git commit -m "Updated business rules for Cafe Management"  
    ```  
-5. **Push to Your Fork**  
-     
----
-
-## 🧑‍💻 Guidelines  
-
-- **Consistency**: Maintain uniform formatting and terminologies across documents.  
-- **Clarity**: Ensure rules are concise and easy to understand.  
-- **Versioning**: Use version control to track updates for each domain.  
+5. **Push to Your Fork and Create a Pull Request**  
 
 ---
 
-## 📚 Resources  
+## 🧑‍💻 Contribution Guidelines  
 
-- [GitHub Markdown Guide](https://guides.github.com/features/mastering-markdown/)  
-- [Best Practices for Documentation](https://www.writethedocs.org/guide/)  
+- **Specificity**: Ensure rules are precise and relevant to cafe management.  
+- **Clarity**: Use simple and professional language for easy understanding.  
+- **Version Control**: Maintain version history for updates.  
 
 ---
 
 ## 📧 Contact  
 
-Have questions or suggestions? Feel free to reach out to:  
+For questions or suggestions, contact:  
 - **Repository Maintainer**: Soumya Ranjan Sahu  
 - **GitHub Profile**: [soumya-work](https://github.com/soumya-work)  
 
-Let’s collaborate to make this repository a valuable resource for all developers! 🚀  
+Together, let’s build exceptional websites for cafe management! ☕🚀  
 
 ---  
-
-Let me know if there are further refinements you need!
